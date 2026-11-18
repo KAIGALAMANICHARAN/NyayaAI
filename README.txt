@@ -1,0 +1,1 @@
+Synthetic demonstration outputs for T1-T3. These are manually prepared expected-style examples, not outputs from a live model execution. Run the app with each test case to produce actual run outputs before submission.

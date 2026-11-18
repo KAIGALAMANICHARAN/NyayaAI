@@ -1,0 +1,68 @@
+[
+  {
+    "id": "T1",
+    "input": {
+      "jurisdiction": "Kochi, Kerala",
+      "story": "I paid my landlord a ₹25,000 deposit. I moved out after the lease ended and returned the keys 12 days ago. He has stopped replying.",
+      "deposit_inr": 25000,
+      "move_out_date": "2026-11-06",
+      "written_agreement": "Yes",
+      "deductions": "No",
+      "evidence": [
+        "Rental agreement",
+        "Bank transfer",
+        "WhatsApp messages",
+        "Key handover proof"
+      ]
+    },
+    "expected_checks": [
+      "Identifies deposit dispute",
+      "Requests agreement and payment proof",
+      "Does not claim automatic refund entitlement",
+      "Suggests written follow-up and local advice if unresolved"
+    ]
+  },
+  {
+    "id": "T2",
+    "input": {
+      "jurisdiction": "Pune, Maharashtra",
+      "story": "My landlord says he will deduct ₹18,000 for repainting from my ₹40,000 deposit. I have move-out photos showing clean walls.",
+      "deposit_inr": 40000,
+      "move_out_date": "2026-10-31",
+      "written_agreement": "Yes",
+      "deductions": "Yes, but no proof",
+      "evidence": [
+        "Rental agreement",
+        "Deposit payment receipt / bank entry",
+        "Move-in / move-out photos",
+        "WhatsApp / SMS messages"
+      ]
+    },
+    "expected_checks": [
+      "Requests itemised deductions and supporting proof",
+      "Distinguishes ordinary wear from damage without deciding facts",
+      "Does not guarantee recovery"
+    ]
+  },
+  {
+    "id": "T3",
+    "input": {
+      "jurisdiction": "Not provided",
+      "story": "I paid cash deposit but have no receipt. Landlord denies receiving it and says I never rented the room.",
+      "deposit_inr": 15000,
+      "move_out_date": "Not provided",
+      "written_agreement": "No",
+      "deductions": "No",
+      "evidence": [
+        "WhatsApp / SMS messages",
+        "Witness"
+      ]
+    },
+    "expected_checks": [
+      "Flags weak proof and missing facts",
+      "Suggests preserving messages and identifying witnesses",
+      "Does not fabricate legal sections or promise success",
+      "Recommends local lawyer/legal aid if contested"
+    ]
+  }
+]
